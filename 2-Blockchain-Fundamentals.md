@@ -64,3 +64,22 @@ Decentralized systems allow for trust-less interactions
 |  Single point of failure. Easy to take down or offline  |  No single point of failure. Network can still function if a large portion of participants are taken down or offline  |
 |  A central authority can sensor/change or delete data  |  Censorship is much harder and its almost impossible to change or delete existing data  |
 |  Participation is regulated by central authority  |  Anyone can participate in the network; there are no "gatekeepers"  |
+
+
+# 3 - Ledgers
+
+A ledger is simply a collection or store of financial accounts or information. A blockchain is said to be decentralized, distributed ledger of verifiable transactions.
+
+For example, we have a ledger between Bob and ALice, the ledger records all the financial transactions between the two, but anyone of them can just edit the ledger if they wanted and add fake transactions. To fix that we can add a intermediate between they and the ledger. For example a bank, Bob and Alice trade with the money they have in the bank, and the bank keeps track on the transactions writing in the ledger. But at  the same time, the someone in the bank can create false transactions in the ledger, so the ledger  ins't 100% secured. To fix this problem we introduced blockchain.
+
+Just to verify, a blockchain is a distributed, decentralized, publicly available ledger of transactions that are verified.
+
+THere are some properties that allowed us to trust  in blockhain:
+
+* Immutable: unchanging over  time or unable to get changed;
+* Publicly Available: available to anyone in the general public;
+* Decentralized: controlled by several local offices or authorities rather than one single one;
+* Distributed: shared or spread out;
+* Chronological: starting with the earliest and following the order in which they occured;
+* Irrevocable: not able to be changed, reversed, or recovered.
+
