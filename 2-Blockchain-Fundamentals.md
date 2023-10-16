@@ -83,3 +83,33 @@ THere are some properties that allowed us to trust  in blockhain:
 * Chronological: starting with the earliest and following the order in which they occured;
 * Irrevocable: not able to be changed, reversed, or recovered.
 
+
+# 4 - Wallets
+
+The next  information is more in correlation with bitcoin but other blockhains netweorks can be identicall.
+
+The components of a wallet:
+* private key (the most important)
+* public key
+* address
+
+-> Private Key: the private key of an account acts as the password for that account. Any person with access to the private key can send/sign transactions and access the funds  associated with that private keys account. Private keys should be stored  in a secured location and should never be shared online or with other people.
+
+-> Public Key: is generated from the private key and a hash function and acts as the identifier for an account. Nodes on a network can validate transactions that were signed properly using an account's public key. It is safe to share your public key (a public key is a longer and less convenient form of an address). 
+
+-> Address: On ethereum, an address is made of 20 bytes and is a more convenient and shorter version of an account's public key.
+
+-> Hash Function: are know as "One-way" functions that have no known inverse. They are the foundation of modern internet security and cryptography. Hash functions have the following properties:
+
+* Fast to compute;
+* Generate a uniform output;
+* No known inverse;
+* Deterministic;
+* Very rare hash collisions.
+
+In a more simple way:
+
+Private Key -> Hash Function -> Public Key -> Hash Function -> Address
+
+-> More about the Hash Function:
+
