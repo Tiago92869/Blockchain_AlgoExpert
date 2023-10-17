@@ -113,3 +113,50 @@ Private Key -> Hash Function -> Public Key -> Hash Function -> Address
 
 -> More about the Hash Function:
 
+In normal functions for example y = f(x) you can determine the inverse for example f(y) = x, but in hash functions you can't determmine inverse ofthe function. In other words you can't determine the input from the output.
+
+
+# 5 - Transactions
+
+A transaction are tech mechanism that allows us to send value across cyberspace.
+
+A transaction has this format:
+
+* FROM
+* TO
+* AMOUNT
+* SIGNATURE
+* GAS/FEE
+* Transaction Hash
+
+In ethereum there are two more fields, nonce and data.
+
+-> Flow of the Transactions:
+
+* First we create the transaction with the data above;
+* Next we transmit this to a transaction-pool;
+* Transaction Pool is where the transactions go before going to the blockchain;
+* Miners will validate the transactions inside of the Transaction Pool;
+* After validating the miners will start to assembly a block;
+* The block will contain more than one transaction;
+* After the block checks for all requirements it will be sent to the blockchain.
+
+-> Creating a transaction
+
+Inputs:
+The inputs are transactions to prove that you have at least the amount + fee in your wallet, that's why there is change, because you can give more than you need.
+
+Outputs:
+* to address;
+* amount;
+* fee;
+* change;
+
+
+-> Digital Signature:
+
+In the context of blockchain networks, a digital signature is attached to a message or transaction to prove that the sending user has adequate permissions. TO create a digital signature you require the private key (signing key) associated with the public key of the sender of the transaction.
+
+
+
+
