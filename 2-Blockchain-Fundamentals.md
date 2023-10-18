@@ -143,20 +143,35 @@ In ethereum there are two more fields, nonce and data.
 
 -> Creating a transaction
 
-Inputs:
+Inputs: 
 The inputs are transactions to prove that you have at least the amount + fee in your wallet, that's why there is change, because you can give more than you need.
 
 Outputs:
 * to address;
 * amount;
 * fee;
-* change;
+* change.
 
 
 -> Digital Signature:
 
+Is the prove that we can send a transaction.
 In the context of blockchain networks, a digital signature is attached to a message or transaction to prove that the sending user has adequate permissions. TO create a digital signature you require the private key (signing key) associated with the public key of the sender of the transaction.
 
+From all the message date of the input e pass that from a hash function and create a transactional hash (enconde the message). After that we can now generate a digital signature. There are two types:
+* Signing Key -> private key;
+* Verification Key -> public key.
 
+The signing key is used to sign the transaction hash and the verification key is to decrypt the signature and determine the transactional hash associated with. 
+
+This is the process of the keys:
+
+message -> hash func(x) -> transactional hash || generate a hash from the message of the transaction.
+
+SK, transaction hash -> Signature func(x) -> Signature || generate a digital signature from the signing key and the transaction hash after passing by a encrypt function.
+
+VK, Signature -> Verification func(x) -> transactional hash || the miners select the signature from the transation and the verification key and pass by a decprition function to generate a transactional hash. 
+
+And if the transactional hash is the same from the transactional hash generated from message it means that the signature is valid.
 
 
