@@ -161,6 +161,7 @@ In the context of blockchain networks, a digital signature is attached to a mess
 From all the message date of the input e pass that from a hash function and create a transactional hash (enconde the message). After that we can now generate a digital signature. There are two types:
 * Signing Key -> private key;
 * Verification Key -> public key.
+
 The signing key is used to sign the transaction hash and the verification key is to decrypt the signature and determine the transactional hash associated with. 
 
 This is the process of the keys:
