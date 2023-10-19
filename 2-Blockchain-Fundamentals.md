@@ -175,3 +175,27 @@ VK, Signature -> Verification func(x) -> transactional hash || the miners select
 And if the transactional hash is the same from the transactional hash generated from message it means that the signature is valid.
 
 
+# 6 - Blocks
+
+-> Block:
+
+In typical blockchain networks a block is a place where blockain data (like transactions, or any type of logs) is stored. In the Bitcoin blockchain contains the following properties:
+* Magic Number;
+* Block Number;
+* Block Size;
+* Transaction Count;
+* Version;
+* Previous Block Hash;
+* Hash Merkle Root;
+* Timestamp;
+* Bits/Difficulty;
+* Nonce;
+* BLock REward.
+
+-> Genesis Block:
+
+On te Bitcoin blockchain, the Genesis Block is the first block ever created. It contains special information about the blockhain network as a whole.
+
+-> Nonce:
+
+A nonce is a special number that is added to the contents of a block by miners. The nonce is used to make the hashs of a block start with a certain number of zeros, it provides the proof of work for a block.
