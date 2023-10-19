@@ -159,6 +159,7 @@ Is the prove that we can send a transaction.
 In the context of blockchain networks, a digital signature is attached to a message or transaction to prove that the sending user has adequate permissions. TO create a digital signature you require the private key (signing key) associated with the public key of the sender of the transaction.
 
 From all the message date of the input e pass that from a hash function and create a transactional hash (enconde the message). After that we can now generate a digital signature. There are two types:
+
 * Signing Key -> private key;
 * Verification Key -> public key.
 
@@ -180,21 +181,29 @@ And if the transactional hash is the same from the transactional hash generated 
 -> Block:
 
 In typical blockchain networks a block is a place where blockain data (like transactions, or any type of logs) is stored. In the Bitcoin blockchain contains the following properties:
-* Magic Number;
-* Block Number;
-* Block Size;
-* Transaction Count;
+
+* Magic Number, just a simple number for a specific blockchain;
+* Block Header;
+* Block Size, size limit of the block, maximum amount of data that can be stored;
+* Transaction Count, number of transactions in the block;
+* Transaction Data, all the transaction data; 
 * Version;
-* Previous Block Hash;
-* Hash Merkle Root;
+* Previous Block Hash, reference of the previous block, is important to link blocks;
+* Hash Merkle Root, quick way if a transaction is part of a specific block and if its valide;
 * Timestamp;
-* Bits/Difficulty;
-* Nonce;
-* BLock REward.
+* Bits/Difficulty, the more dificulty the hardest it is to actually mine it;
+* Nonce, its added by the miner as proof that the block is valid;
+* BLock Reward, how much bitcoin is given to the miners after mining a block.
 
 -> Genesis Block:
 
 On te Bitcoin blockchain, the Genesis Block is the first block ever created. It contains special information about the blockhain network as a whole.
+
+It as the same data as any other block and it has some more special data:
+
+* Difficulty and Difficulty Interval;
+* Mining Reward and Reward Changes;
+* Circulation Supply, defines the number of tokens allowed in circulation;
 
 -> Nonce:
 
