@@ -224,3 +224,12 @@ Problem and concerns:
 -> Exploited Code: the actual source code of the token or the blockhain can have code that can be exploited.
 
 -> 51% Attack: this happen if a entity has the controll of over 51% the network, it can have full control of the network.
+
+
+# 8 - Proof of Work
+
+-> Proof of Work: is a part of a consensus mechanism used  by a blockchain network. In proof of work blockchain networks miners compete to find a valid proof of work for blocks they assemble based on recent transactions. The proof of work involves finding a special value (the nonce) that when added to a block makes the hash of that block start with a certain number of zeros.
+
+-> Mining Dificulty: is represented by a field known as bit. The number of bits states the number of 0's that the hash of each block must start with to be acceptedas  valid. Miners must find a valid nonce that when added to a block make it's hash start with the number of bits zeros.
+
+-> Miner: is a special node on a blockchain network  that is responsible for validating incoming transactions and assembling them into blocks. Miners compete/race to be the first to submit a valid block to the network. Upon submitting a valid block, miners are compensated by receiving that block's reward (if any) and the sum of all transactions fees.
