@@ -233,3 +233,11 @@ Problem and concerns:
 -> Mining Dificulty: is represented by a field known as bit. The number of bits states the number of 0's that the hash of each block must start with to be acceptedas  valid. Miners must find a valid nonce that when added to a block make it's hash start with the number of bits zeros.
 
 -> Miner: is a special node on a blockchain network  that is responsible for validating incoming transactions and assembling them into blocks. Miners compete/race to be the first to submit a valid block to the network. Upon submitting a valid block, miners are compensated by receiving that block's reward (if any) and the sum of all transactions fees.
+
+-> Proccess for a transaction to be validated and added to the blockchain:
+
+Transaction Created and Signed -> Transaction Sent To Transaction Pool -> Miner Bundles Transaction Into a Block -> Miner Finds the Nonce -> Miner Subsmits Block.
+
+-> Mining Dificulty Variance: Normally the dificulty is based ypon the number of bitcoin miners on the network. If more miners join the network it becomes more difficult, if miners leave it becomes easier.
+
+
