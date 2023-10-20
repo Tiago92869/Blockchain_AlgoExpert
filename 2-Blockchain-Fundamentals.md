@@ -208,3 +208,19 @@ It as the same data as any other block and it has some more special data:
 -> Nonce:
 
 A nonce is a special number that is added to the contents of a block by miners. The nonce is used to make the hashs of a block start with a certain number of zeros, it provides the proof of work for a block.
+
+
+
+# 7 - Blockchain Security
+
+Problem and concerns: 
+
+-> Double Spending: it's when a person is able to spend the same dolar more than one time, a way to assure that double spending doens't happen is to have a complete history of every single transaction. 
+
+-> Order: althougth the blockhain is in chronologic order, but that is not necessary true for the transactions. A user can add multiple instances of the same transaction with the same input, and the blockchain must be able to detect that if a miner verifies one of the transactions, the others are not valid anymore.
+
+-> Suficient Balances: it is needed to provide transactions hash to back up a transaction as proof that you have the balance, if not the miner needs to search all your transactions to check, which makes the proccess much slower.
+
+-> Exploited Code: the actual source code of the token or the blockhain can have code that can be exploited.
+
+-> 51% Attack: this happen if a entity has the controll of over 51% the network, it can have full control of the network.
