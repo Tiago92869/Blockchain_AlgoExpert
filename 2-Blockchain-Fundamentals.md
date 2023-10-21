@@ -241,3 +241,11 @@ Transaction Created and Signed -> Transaction Sent To Transaction Pool -> Miner 
 -> Mining Dificulty Variance: Normally the dificulty is based ypon the number of bitcoin miners on the network. If more miners join the network it becomes more difficult, if miners leave it becomes easier.
 
 
+# 9 - Proof of Stake
+
+-> Proof of Stake: is part of a consensus mechanism used by blockchain network. In proof of stake blockchain networks validators are selected to verify the next set of transactions. Validators must provide a stake/collateral that can be slashed if they act with malicious intent.
+
+-> Validator: is the term used to denote a node in a proof of stake blockchain network that validates transactionss and creates new blocks. Typically validators must provide a stake/collateral to ensure they act ethically.
+
+
+
