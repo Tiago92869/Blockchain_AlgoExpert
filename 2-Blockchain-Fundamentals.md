@@ -256,6 +256,14 @@ In proof of stake every validator contributes with a stake (specific amount of t
 If its a invalid block, that means that the majority of validators didn't approved the block, that means that the stake of the block that created the block is slash, for example the minimum stake to become a validator for the Ethereum network is 32 eth, if their block is invalid they will loose that stake.
 
 
+# 10 - Nodes and Masternodes
+
+-> Node: is any  machine that is connected to a blockchain network. Nodes may be full nodes (store the entire blockchain) or partial nodes (store part of the blockchain).
+
+-> Full Node: a full node is a node on a blockchain network that stores the entire history of the blockchain. In the context of bitcoin, all miner nodes are full nodes.
+
+-> Masternode: are special nodes that only exist on certain blockchain networks. They are typically full nodes, require heavier equipment than normal nodes and may facilliate special opeartions such as voting. Providers of masternodes  typically need to provide a stake and are compensated for their services.
+
 
 
 
