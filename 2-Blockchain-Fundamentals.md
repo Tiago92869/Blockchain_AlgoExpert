@@ -247,5 +247,20 @@ Transaction Created and Signed -> Transaction Sent To Transaction Pool -> Miner 
 
 -> Validator: is the term used to denote a node in a proof of stake blockchain network that validates transactionss and creates new blocks. Typically validators must provide a stake/collateral to ensure they act ethically.
 
+Proof of work is a good security mechanism, but is very hastfull in terms of compute power. Proof of stake is a alternative mechanism that uses 99% less energy, makes the network more decentrialized and allow more people to become validatores.
+
+While in proof od work there are miners validating transactions and creating blocks. In Proof of stake network, we call the miners validatores, and instead of mining a block we are forging a block.
+
+In proof of stake every validator contributes with a stake (specific amount of tokens) the more stake a validator the more chances is it to be choosen. When a validator is choosen it will fill the block with the transactions without showing any proof of work and then the block he created is validated by the majority of the others validators, and then is sent to the blockchain.
+
+If its a invalid block, that means that the majority of validators didn't approved the block, that means that the stake of the block that created the block is slash, for example the minimum stake to become a validator for the Ethereum network is 32 eth, if their block is invalid they will loose that stake.
+
+
+
+
+
+
+
+
 
 
