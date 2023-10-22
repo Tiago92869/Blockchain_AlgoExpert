@@ -262,13 +262,4 @@ If its a invalid block, that means that the majority of validators didn't approv
 
 -> Full Node: a full node is a node on a blockchain network that stores the entire history of the blockchain. In the context of bitcoin, all miner nodes are full nodes.
 
--> Masternode: are special nodes that only exist on certain blockchain networks. They are typically full nodes, require heavier equipment than normal nodes and may facilliate special opeartions such as voting. Providers of masternodes  typically need to provide a stake and are compensated for their services.
-
-
-
-
-
-
-
-
-
+-> Masternode: are special nodes that only exist on certain blockchain networks. They are typically full nodes, require heavier equipment than normal nodes and may facilliate special operations such as voting. Providers of masternodes  typically need to provide a stake and are compensated for their services. 
