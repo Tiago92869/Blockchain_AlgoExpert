@@ -76,3 +76,42 @@
 Ethereum is different that Bitcoin as it provides a development platform that anybody can use to write decentralized applications, Bitcoin is simply used for decentralized finance while Ethereum aims to decentralize all aspects of the internet. With Ethereum users can create self-executing smart contracts that run in a turing complete environment.
 
 While Ethereum may sometimes be faster than Bitcoin it's speed is not guaranteed and speed is not a major differentiator between the cryptocurrencies.
+
+
+# 3 - Smart Contracts and DApps
+
+-> DApp: stands for "Decentralized Application" and is an application that runs on a blockchain and utilizes the blockchain as it's single source of truth.
+
+-> Smart Contract: is a simply code that is stored on the blockchain that runs when certain conditions are met. Smart contracts are utilized to implement purchase/sale agreements, currency exchanges, ERC-20 and ERC-721 tokens and various other decentralized applications.
+
+-> Smart Contracts:
+
+* Programs that are stored on the blockchain and run when predetermined conditions are met;
+* Used to automate the execution of an agreement so that all participants are immediately certain of the outcome;
+* Smart contracts have the following properties:
+    * Immutable;
+    * Transparent/Public;
+    * Executed by nodes on the network;
+    * Cost money (crypto) to deploy;
+    * Can hold a balance, just like a regular address.
+
+ -> Smart Contracts Continued:
+
+* Only run when called upon and provided gas;
+* All operations are traceable and irreversible;
+* Anyone can deploy a smart contract but inde they are deployed they cannot be changed or deleted;
+* Cannot make HTTP requests or rely on any data outside of the blockchain;
+* DApps or Decentralized Apps are made up of one or multiple smart contracts.
+
+-> DApp Examples:
+
+* Auctions;
+* Games;
+* Sale of Assets;
+* Decentralized Exchanges;
+* Web Browsers;
+* Credit Services.
+
+-> Example of a Smart Contract:
+
+Lets make up the situation that i want to sell a house, so i create a smart contract of 100 ETH for the house. The smart contract will be saved in a block inside of the Ethereum network. To be deploy it is needed to pay a deploy fee. Lets say someone want to buy the house it will send a transaction of 100 ETH and the deed of the house would go to the person that bought.
