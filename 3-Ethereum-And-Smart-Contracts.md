@@ -147,3 +147,15 @@ A voin is the default cryptocurrency for a blockchain, Ethereum and Bitcoin are 
 * Enterprise Software;
 * Stable Coins;
 * Royalties.
+
+
+# ERC-721 Tokens
+
+-> Non-Fungible: refers to something that is unique and cannot be replaced. Non-Fungible tokens (NFTs) are unique tokens that cannot be interchanged and all have their own unique id.
+
+-> ERC-721 Token: represents a standard for non-fungible tokens (NFTs) on Ethereum. Contracts that represent an ERC-721 token must implement specified functionality that allow for uniform usage/behavior of these tokens.
+
+* ERC-71 tokens can be created by anyone by deploying a smart contract that adheres to the protocol;
+* Each ERC-721 token has a unique id;
+* Each token may be associated with metadata such as images, vídeos, sound, attributes etc;
+* ERC-721 tokens are useful for proving ownership of unique items.
