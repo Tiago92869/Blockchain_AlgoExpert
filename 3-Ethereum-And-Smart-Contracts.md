@@ -159,3 +159,21 @@ A voin is the default cryptocurrency for a blockchain, Ethereum and Bitcoin are 
 * Each ERC-721 token has a unique id;
 * Each token may be associated with metadata such as images, vídeos, sound, attributes etc;
 * ERC-721 tokens are useful for proving ownership of unique items.
+
+
+# Blockchain Comparisons
+
+-> Layer 1: refers to the base blockchain network such as Ethereum or Bitcoin and its underlying infrastructure Layer 1 networks can validade transactions independetly.
+
+-> Layer 2: refers to a protocol that relies on an integration with an existing Layer 1 blockchain network. Layer 2 networks are typically faster or provide scalability solutions but may lack decentralization and security.
+
+-> Layer 1 & Layer 2 Chain:
+
+* Layer 1: refers to a base network, such as Bitcoin, BNB Chain, or Ethereum and its underlying infrastructure:
+    * It is very difficult to improve the scalability;
+    * Can validate and finalize transactions without the need for another network.
+* Layer 2: refers to a secondary framework or protocol that is built on top of an existing blockchain:
+    * Performs computations or transactions off-chain and reports it back to the main chain for validation;
+    * Feature solutions such as roll-ups, state channels, sidechains and more;
+    * Can provide must higher thoughput, faster transaction processing time and often lower fees;
+    * Often lack decentralization due to limited adoption and usage.
