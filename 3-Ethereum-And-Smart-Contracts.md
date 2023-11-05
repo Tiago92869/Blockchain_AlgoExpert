@@ -235,3 +235,23 @@ A voin is the default cryptocurrency for a blockchain, Ethereum and Bitcoin are 
     * Collateral exists inside the protocol;
     * Terra used LUNA as collateral, which existed inside the protocol, hence it used endogenous collateral;
     * Using endogenous collateral is dangerous when people lose faith in the collateral and the stable coint at the same time.
+
+
+# Introduction to Oracles
+
+-> Oracle is an entity that provides off-chain data to the blockchain for use in smart contracts. Chainlink provides one of the most popular decentralized oracle networks,
+
+* A trusted 3rd party that gives reliable information;
+* Allow our smart contracts to utilize third party data;
+* Code that is written by trusted third parties;
+* Off-chain oracles send data to the blockchain through a transaction so it can be used by smart contracts and validated.
+
+-> Chainlink:
+
+* Layer 2 solution that relies on Ethereum;
+* It provides a bridge between blockchain networks and data sources;
+* Referred to as blockchain middleware;
+* Node operators lock up currency (collateral) and provide data to the chainlink network:
+    * Multiple operators provide the same data to ensure data is valid;
+    * If nodes submit incorrect data they may lose collateral;
+    * Chainlink determines if nodes are reliable and sends data requests to certain trusted node.
