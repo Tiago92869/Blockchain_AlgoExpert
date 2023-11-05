@@ -115,3 +115,35 @@ While Ethereum may sometimes be faster than Bitcoin it's speed is not guaranteed
 -> Example of a Smart Contract:
 
 Lets make up the situation that i want to sell a house, so i create a smart contract of 100 ETH for the house. The smart contract will be saved in a block inside of the Ethereum network. To be deploy it is needed to pay a deploy fee. Lets say someone want to buy the house it will send a transaction of 100 ETH and the deed of the house would go to the person that bought.
+
+
+# 4 - ERC-20 Tokens
+
+-> Token: relies on a blockchain network and is created by a smart contract;
+
+-> Coin: is the native cryptocurrency of a blockchain network. FOr example, Ether is the native coin on Ethereum;
+
+A voin is the default cryptocurrency for a blockchain, Ethereum and Bitcoin are both examples of coins. Tokens are created on a blockchain like Ethereum by using smart contracts, anyone can create a token by writing a smart contract that adheres to the ERC-20 token standard.
+
+-> ERC-20 Token: represents a standard for fungible tokens on Ethereum. Contracts that represent an ERC-20 token must implement specified functionality that allow for uniform usage/behavior of these tokens;
+
+-> Fungible: refers to the ability to replace or to be replaced by another identical item. ERC-20 tokens are fungible tokens.
+
+-> ERC-20 Tokens:
+
+* Fungible token on the Ethereum network follow a standardized protocol know as ERC-20.
+* Fungible: able to replace or be replaced by another identical item; they are mutually interchangeable;
+* Non-Fungible: unique tokens; represent a unique assets such as a piece of art (for example NFTs);
+* ERC-20 Tokens can be created by anyone by deploying a smart contract that adheres to the protocol;
+* The ERC-20 protocol aims to standardize token functionality;
+* ERC-20 Smart contract define total token supply, how tokens are created/deleted, if/how tokens can be transferred and much more.
+
+-> ERC-20 Token Use Cases:
+
+* Crowdfunding;
+* Voting Rights and DAOs;
+* Representation of Ownership;
+* Paying for features/DApps:
+* Enterprise Software;
+* Stable Coins;
+* Royalties.
