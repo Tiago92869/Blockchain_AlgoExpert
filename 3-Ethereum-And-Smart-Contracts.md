@@ -177,3 +177,61 @@ A voin is the default cryptocurrency for a blockchain, Ethereum and Bitcoin are 
     * Feature solutions such as roll-ups, state channels, sidechains and more;
     * Can provide must higher thoughput, faster transaction processing time and often lower fees;
     * Often lack decentralization due to limited adoption and usage.
+
+
+# Stablecoins
+
+-> Fiat-Collateralized: are coins that hold fiat currency (such as USD, CAD, EUR) as a reserve assets. They are typically audited regularly and must hold at least 1$ fo reach coin minted.
+
+-> Crypto Collateralized: is a coint that holds other cryptocurrencies as reserve assets. Due to the volatillity of cryptocurrencies they typically hold excess amounts in reserve.
+
+-> Algorithmic Stablecoin: mantains it's price stability by manipulationg the supply of coins to adjust it's price. It does this using a smart contract/code.
+
+-> Endogenous: refers to originating inside the system. In the context of stablecoins, endogenous reserve assets exist inside of the protocol.
+
+-> Exogenous: refers to originating outside the system. In the context of stabelcoins, exogenous reserve assets exist outside of the protocol.
+
+-> Stablecoins:
+
+* A cryptocurrency asset whose buying power stays relatively the same;
+* A non-volatile cryptocurrenc asset;
+* Useful as a medium of exchange due to the volatility of most cryptocurrencies;
+* Can be thought of as digital "cash";
+* May be pegged to a currency like the U.S. Dollar, tangible assets such as gold or the value of another cryptocurrency;
+* Pursue price stability by maintaining reserve assets as collateral or through algorithmic formuas that are supposed to control supply.
+
+* Stablecoin Properties:
+    * Relative Stability;
+    * Stability Method;
+    * Reserve Assets.
+
+-> Relative Stability:
+
+* Pegged:
+    * Value pegged to another asset;
+    * For every coin minted a dollar of reserve asset is hel;
+* Floating Value:
+    * Used math and various mechanisms to keep the byuing power the same over time;
+    * Value changes (floats) to keep the buying power the same.
+
+-> Stability Method:
+
+* Governed:
+    * Requires human intervention to control the price;
+    * Considered centralized;
+    * Regulated and regularly audited;
+    * Requires a central entity to inject collateral in the system;
+* Algorithmic:
+    * Code/smart contracts facilitates burning and minting of coins;
+    * Requires no human intervention.
+
+-> Reserve Assets:
+
+* Exogenous:
+    * Collateral exists outside of the protocol;
+    * Tether uses the US dollar as collateral, which exists outside of the protocol, hence it uses exogenous collateral;
+    * Dau uses multiple cryptocurrencies and other stable coins as collateral; hence it uses exogenous collateral.
+* Endogenous:
+    * Collateral exists inside the protocol;
+    * Terra used LUNA as collateral, which existed inside the protocol, hence it used endogenous collateral;
+    * Using endogenous collateral is dangerous when people lose faith in the collateral and the stable coint at the same time.
