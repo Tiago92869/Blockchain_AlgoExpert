@@ -149,7 +149,7 @@ A voin is the default cryptocurrency for a blockchain, Ethereum and Bitcoin are 
 * Royalties.
 
 
-# ERC-721 Tokens
+# 5 - ERC-721 Tokens
 
 -> Non-Fungible: refers to something that is unique and cannot be replaced. Non-Fungible tokens (NFTs) are unique tokens that cannot be interchanged and all have their own unique id.
 
@@ -161,7 +161,7 @@ A voin is the default cryptocurrency for a blockchain, Ethereum and Bitcoin are 
 * ERC-721 tokens are useful for proving ownership of unique items.
 
 
-# Blockchain Comparisons
+# 6 - Blockchain Comparisons
 
 -> Layer 1: refers to the base blockchain network such as Ethereum or Bitcoin and its underlying infrastructure Layer 1 networks can validade transactions independetly.
 
@@ -179,7 +179,7 @@ A voin is the default cryptocurrency for a blockchain, Ethereum and Bitcoin are 
     * Often lack decentralization due to limited adoption and usage.
 
 
-# Stablecoins
+# 7 - Stablecoins
 
 -> Fiat-Collateralized: are coins that hold fiat currency (such as USD, CAD, EUR) as a reserve assets. They are typically audited regularly and must hold at least 1$ fo reach coin minted.
 
@@ -237,7 +237,7 @@ A voin is the default cryptocurrency for a blockchain, Ethereum and Bitcoin are 
     * Using endogenous collateral is dangerous when people lose faith in the collateral and the stable coint at the same time.
 
 
-# Introduction to Oracles
+# 8 - Introduction to Oracles
 
 -> Oracle is an entity that provides off-chain data to the blockchain for use in smart contracts. Chainlink provides one of the most popular decentralized oracle networks,
 
